@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+}
+h1, h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#blog-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    width: 520px;
+    margin: 0 auto;
+    border: 2px solid #919191;
+    border-radius: 15px;
+    padding: 15px;
+}
+#content {
+    height: 130px;
+    border-radius: 5px;
+}
+#date, #title {
+    border-radius: 5px;
+}
+
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    width: 520px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: aliceblue;
+    border: 2px solid #919191;
+    box-shadow: #074700 2px 8px 8px -5px;
+
+    /* border-radius: 15px; */
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    padding: 20px;
+    align-items: center;
+    flex: 0 0 calc(33.333% - 10px); /* Fast bredd (33.333% av raden minus gap) */
+
+}
+
+/* ======================================== */
+/* ======================================== */
+/* CSS for my button(this is not my code lol) */
+#save-btn {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: #000000  2px 8px 8px -5px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  margin-top: 10px;
+  width: 150px;
+}
+
+#save-btn:hover {
+  box-shadow: #10a300 2px 8px 8px -5px;
+  background-color: aliceblue;
+  transform: translate3d(0, 6px, 0);
+}
+
+

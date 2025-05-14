@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBlog</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>EasyBlogTool</h1>
+
+    <form id="blog-form">
+        <label for="title">Rubrik</label>
+        <input id="title" name="title" type="text" required>
+
+        <label for="date">Datum</label>
+        <input id="date" name="date" type="date" required>
+
+        <label for="content">Text</label>
+        <textarea id="content" name="content" required></textarea>
+
+        <button id="save-btn" type="button" role="button">Spara</button>
+
+    </form>
+
+    <h2>Tidigare inlägg</h2>
+    <div id="blog-posts"></div>
+</body>
+</html>
